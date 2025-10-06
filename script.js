@@ -79,3 +79,8 @@ document.addEventListener("DOMContentLoaded", () => {
   // Initial render
   renderTable();
 });
+// Feature: Add alert after adding a new student
+function showAddStudentAlert() {
+  alert("New student added successfully!");
+}
+
